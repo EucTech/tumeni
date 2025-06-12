@@ -7,7 +7,7 @@ import h4 from "./images/h4.png";
 import h5 from "./images/h5.png";
 import h6 from "./images/h6.png";
 import h7 from "./images/h7.png";
-import h8 from "./images/h8.jpg";
+import h8 from "./images/h8.png";
 import shopify from "./images/shopify.png";
 import pay from "./images/pay.png";
 import icon1 from "./images/icon1.png";
