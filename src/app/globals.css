@@ -1,6 +1,73 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@import url("https://fonts.cdnfonts.com/css/inter?styles=169530,29139,29142,29132,29135,29137,29140,29128,29130,29126");
+@import url(https://db.onlinewebfonts.com/c/09cc8698f1f0506ad91591c4149c76f8?family=Instrument+Sans);
+@import url('https://fonts.cdnfonts.com/css/inter');
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+
+@theme inline {
+  --color-blue: #5027FF;
+}
+
+@font-face {
+  font-family: 'ClashDisplay-Extralight';
+  src: url('/fonts/ClashDisplay-Extralight.woff2') format('woff2');
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClashDisplay-Light';
+  src: url('/fonts/ClashDisplay-Light.woff') format('woff');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClashDisplay-Regular';
+  src: url('/fonts/ClashDisplay-Regular.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClashDisplay-Medium';
+  src: url('/fonts/ClashDisplay-Medium.woff') format('woff');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClashDisplay-Semibold';
+  src: url('/fonts/ClashDisplay-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClashDisplay-Bold';
+  src: url('/fonts/ClashDisplay-Bold.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+
+@theme inline {
+  --font-clashDisplay-bold: "ClashDisplay-Bold", sans-serif;
+  --font-clashDisplay-semibold: "ClashDisplay-Semibold", sans-serif;
+  --font-clashDisplay-medium: "ClashDisplay-Medium", sans-serif;
+  --font-clashDisplay-regular: "ClashDisplay-Regular", sans-serif;
+  --font-clashDisplay-light: "ClashDisplay-Light", sans-serif;
+  --font-instrumentSans: "Instrument Sans", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-sf: "SF Pro Display", sans-serif;
+}
+
+
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -119,4 +186,8 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.gradient-background {
+  background: linear-gradient(90deg, #B62619, #5027FF, #1C4117);
 }

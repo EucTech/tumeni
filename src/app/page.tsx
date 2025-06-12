@@ -1,11 +1,25 @@
-import Image from "next/image";
+import ChatNow from "@/components/Home/ChatNow";
+import FAQS from "@/components/Home/FAQS";
+import Global from "@/components/Home/Global";
+import HeroSection from "@/components/Home/HeroSection";
+import PayTrack from "@/components/Home/PayTrack";
+import ShopOrSend from "@/components/Home/ShopOrSend";
+import TrustedBrands from "@/components/Home/TrustedBrands";
+import WhyTumeni from "@/components/Home/WhyTumeni";
+import HowItWorks from "@/components/HowItWorks";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      
-     
- 
+    <div >
+     <HeroSection/>
+     <ShopOrSend/>
+     <PayTrack/>
+     <ChatNow/>
+     <WhyTumeni/>
+     <HowItWorks/>
+     <TrustedBrands/>
+     <FAQS/>
+     <Global/>
     </div>
   );
 }
