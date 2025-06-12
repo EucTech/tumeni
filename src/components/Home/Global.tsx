@@ -4,12 +4,11 @@ import React from "react";
 
 const Global = () => {
   return (
-    <div className="relative w-full flex lg:flex-row flex-col-reverse items-center justify-center gap-20 bg-[#101010] px-5 sm:px-10 md:px-20 pt-14 pb-10 sm:pb-5 overflow-hidden">
-      <div className="w-[100%] md:w-[80%] lg:w-[60%] xl:w-[50%] 2xl:w-[40%] flex flex-col items-start gap-5 z-30">
+    <div className="relative w-full flex lg:flex-row flex-col-reverse items-center justify-between gap-20 bg-[#101010] px-5 sm:px-10 md:px-20 pt-14 pb-10 sm:pb-5 overflow-hidden">
+      <div className="w-[100%] md:w-[80%] lg:w-[60%] xl:w-[50%] 2xl:w-[40%] flex flex-col items-center lg:items-start lg:text-start text-center gap-10 z-30">
         <h3 className="text-[#FFFFFF] text-[22px] sm:text-[26px] md:text-[30px] font-clashDisplay-bold ">
           The future of <span className="text-[#FED449]">Global</span> shoping
           Experience
-          <span className="text-[#5236CE]">Now!</span>
         </h3>
 
         <p className="text-[#fff]">
@@ -33,7 +32,7 @@ const Global = () => {
         width={1000}
         height={1000}
         quality={100}
-        className="w-[100%] xl:w-[300px] z-30"
+        className="w-[100%] sm:w-[300px] xl:w-[350px] z-30"
       />
 
         {/* Background Image */}
