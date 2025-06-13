@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/accordion";
 import Image from "next/image";
 import { Images } from "@/assets";
+import { Fade } from "react-awesome-reveal";
 
 const FAQS = () => {
   return (
@@ -19,79 +20,125 @@ const FAQS = () => {
           collapsible
           className="w-full flex flex-col gap-4"
         >
-          <AccordionItem
-            className="border border-[#5027FF] rounded-2xl p-2"
-            value="item-1"
+          <Fade
+            direction="up"
+            duration={1000}
+            fraction={0.5}
+            delay={200}
+            triggerOnce
+            className=""
           >
-            <AccordionTrigger
-              className={` text-[#141011] font-[500] text-[16px] !no-underline ${montserrat.className}`}
+            <AccordionItem
+              className="border border-[#5027FF] rounded-2xl p-2"
+              value="item-1"
             >
-              How do I get my warehouse address?
-            </AccordionTrigger>
-            <AccordionContent className="text-[15px] font-[400] text-[#4E4E4E]">
-              Just sign up — it&apos;s free. You&apos;ll get your unique U.S.
-              address instantly.
-            </AccordionContent>
-          </AccordionItem>
+              <AccordionTrigger
+                className={` text-[#141011] font-[500] text-[16px] !no-underline ${montserrat.className}`}
+              >
+                How do I get my warehouse address?
+              </AccordionTrigger>
+              <AccordionContent className="text-[15px] font-[400] text-[#4E4E4E]">
+                Just sign up — it&apos;s free. You&apos;ll get your unique U.S.
+                address instantly.
+              </AccordionContent>
+            </AccordionItem>
+          </Fade>
 
-          <AccordionItem
-            className="border border-[#5027FF] rounded-2xl p-2"
-            value="item-2"
+          <Fade
+            direction="up"
+            duration={1000}
+            fraction={0.5}
+            delay={400}
+            triggerOnce
+            className=""
           >
-            <AccordionTrigger
-              className={` text-[#141011] font-[500] text-[16px] !no-underline ${montserrat.className}`}
+            <AccordionItem
+              className="border border-[#5027FF] rounded-2xl p-2"
+              value="item-2"
             >
-              How do I get my warehouse address?
-            </AccordionTrigger>
-            <AccordionContent className="text-[15px] font-[400] text-[#4E4E4E]">
-              Just sign up — it&apos;s free. You&apos;ll get your unique U.S.
-              address instantly.
-            </AccordionContent>
-          </AccordionItem>
+              <AccordionTrigger
+                className={` text-[#141011] font-[500] text-[16px] !no-underline ${montserrat.className}`}
+              >
+                How do I get my warehouse address?
+              </AccordionTrigger>
+              <AccordionContent className="text-[15px] font-[400] text-[#4E4E4E]">
+                Just sign up — it&apos;s free. You&apos;ll get your unique U.S.
+                address instantly.
+              </AccordionContent>
+            </AccordionItem>
+          </Fade>
 
-          <AccordionItem
-            className="border border-[#5027FF] rounded-2xl p-2"
-            value="item-3"
+          <Fade
+            direction="up"
+            duration={1000}
+            fraction={0.5}
+            delay={400}
+            triggerOnce
+            className=""
           >
-            <AccordionTrigger
-              className={` text-[#141011] font-[500] text-[16px] !no-underline ${montserrat.className}`}
+            <AccordionItem
+              className="border border-[#5027FF] rounded-2xl p-2"
+              value="item-3"
             >
-              How do I get my warehouse address?
-            </AccordionTrigger>
-            <AccordionContent className="text-[15px] font-[400] text-[#4E4E4E]">
-              Just sign up — it&apos;s free. You&apos;ll get your unique U.S.
-              address instantly.
-            </AccordionContent>
-          </AccordionItem>
+              <AccordionTrigger
+                className={` text-[#141011] font-[500] text-[16px] !no-underline ${montserrat.className}`}
+              >
+                How do I get my warehouse address?
+              </AccordionTrigger>
+              <AccordionContent className="text-[15px] font-[400] text-[#4E4E4E]">
+                Just sign up — it&apos;s free. You&apos;ll get your unique U.S.
+                address instantly.
+              </AccordionContent>
+            </AccordionItem>
+          </Fade>
 
-          <AccordionItem
-            className="border border-[#5027FF] rounded-2xl p-2"
-            value="item-4"
+          <Fade
+            direction="up"
+            duration={1000}
+            fraction={0.5}
+            delay={400}
+            triggerOnce
+            className=""
           >
-            <AccordionTrigger
-              className={` text-[#141011] font-[500] text-[16px] !no-underline ${montserrat.className}`}
+            <AccordionItem
+              className="border border-[#5027FF] rounded-2xl p-2"
+              value="item-4"
             >
-              How do I get my warehouse address?
-            </AccordionTrigger>
-            <AccordionContent className="text-[15px] font-[400] text-[#4E4E4E]">
-              Just sign up — it&apos;s free. You&apos;ll get your unique U.S.
-              address instantly.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem
-            className="border border-[#5027FF] rounded-2xl p-2"
-            value="item-5"
+              <AccordionTrigger
+                className={` text-[#141011] font-[500] text-[16px] !no-underline ${montserrat.className}`}
+              >
+                How do I get my warehouse address?
+              </AccordionTrigger>
+              <AccordionContent className="text-[15px] font-[400] text-[#4E4E4E]">
+                Just sign up — it&apos;s free. You&apos;ll get your unique U.S.
+                address instantly.
+              </AccordionContent>
+            </AccordionItem>
+          </Fade>
+
+          <Fade
+            direction="up"
+            duration={1000}
+            fraction={0.5}
+            delay={400}
+            triggerOnce
+            className=""
           >
-            <AccordionTrigger
-              className={` text-[#141011] font-[500] text-[16px] !no-underline ${montserrat.className}`}
+            <AccordionItem
+              className="border border-[#5027FF] rounded-2xl p-2"
+              value="item-5"
             >
-              How do I get my warehouse address?
-            </AccordionTrigger>
-            <AccordionContent className="text-[15px] font-[400] text-[#4E4E4E]">
-              Just sign up — it&apos;s free. You&apos;ll get your unique U.S.
-              address instantly.
-            </AccordionContent>
-          </AccordionItem>
+              <AccordionTrigger
+                className={` text-[#141011] font-[500] text-[16px] !no-underline ${montserrat.className}`}
+              >
+                How do I get my warehouse address?
+              </AccordionTrigger>
+              <AccordionContent className="text-[15px] font-[400] text-[#4E4E4E]">
+                Just sign up — it&apos;s free. You&apos;ll get your unique U.S.
+                address instantly.
+              </AccordionContent>
+            </AccordionItem>
+          </Fade>
         </Accordion>
       </div>
 
@@ -114,8 +161,8 @@ const FAQS = () => {
             className="w-5"
           />
           <p className="text-[#FFFFFF]">
-            Just sign up — it&apos;s free. You&apos;ll get your unique U.S. address
-            instantly.
+            Just sign up — it&apos;s free. You&apos;ll get your unique U.S.
+            address instantly.
           </p>
           <p className="text-[#FFFFFF]">
             Whether you&apos;re a frequent shopper, reseller, or just buying a
