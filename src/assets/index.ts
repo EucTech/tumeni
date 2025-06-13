@@ -21,6 +21,9 @@ import brands from "./images/brands.png";
 import star from "./images/star.png";
 import faqs from "./images/faqs.png";
 import c from "./images/c.png";
+import s1 from "./images/s1.png";
+import s2 from "./images/s2.png";
+import why2 from "./images/why2.png";
 
 
 export const Images = {
@@ -47,6 +50,9 @@ export const Images = {
   star,
   faqs,
   c,
+  s1,
+  s2,
+  why2,
 
   
 };
