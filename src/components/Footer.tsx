@@ -66,8 +66,7 @@ const Footer = () => {
             >
               <li>support@tumeni.com</li>
             </Link>
-            <li>+2348101832699</li>
-            <li>27, Uwan-Infor Market Road, Benin City, Lagos State, Nigeria </li>
+            <li>4786 1st Avenue Suite, 103 Seatl, WA 98134 </li>
           </ul>
         </div>
       </div>
